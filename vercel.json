@@ -1,0 +1,11 @@
+{
+  "$schema": "https://vercel.com/docs/project-configuration/vercel-schema.json",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
